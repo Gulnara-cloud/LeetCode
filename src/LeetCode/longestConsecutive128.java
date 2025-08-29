@@ -13,7 +13,7 @@ public class longestConsecutive128 {
             // you will check if x is the start of sequence
 
             // Skip numbers that are not the start of a sequence
-            if(set.contains(x - 1)) {
+            if (set.contains(x - 1)) {
                 continue;
             }
             // Start building a sequence from x:
@@ -21,7 +21,7 @@ public class longestConsecutive128 {
             // (You also count how long this sequence is with currentLength)
             int currentNum = x;
             int currentLength = 1;
-            while(set.contains(currentNum + 1)) {
+            while (set.contains(currentNum + 1)) {
                 currentNum++;
                 currentLength++;
             }
@@ -33,10 +33,10 @@ public class longestConsecutive128 {
     public static void main(String[] args) {
         int[] nums = {100, 4, 200, 1, 3, 2};
         System.out.println(longestConsecutive(nums));
+        // It skips 2, 3, 4 because they are not sequence starts.
+        // It starts a sequence at 1: → 1, 2, 3, 4 → length = 4
+        // Skips 100 and 200 because those don’t lead to longer sequences
+        // So the final answer is 4
     }
-    // It skips 2, 3, 4 because they are not sequence starts.
-    // It starts a sequence at 1: → 1, 2, 3, 4 → length = 4
-    // Skips 100 and 200 because those don’t lead to longer sequences
-    // So the final answer is 4
 }
 
