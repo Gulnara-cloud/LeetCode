@@ -1,6 +1,4 @@
-import java.util.Arrays;
-
-class removeDuplicates26 {
+public class RemoveDuplicatesFromSortedArray26 {
     public static int removeDuplicates(int[] nums) {
         if (nums.length == 0) {
             return 0;
@@ -20,6 +18,7 @@ class removeDuplicates26 {
 
         System.out.println("Number of unique elements: " + k);
         System.out.print("Modified array: ");
+
         for (int i = 0; i < k; i++) {
             System.out.print(nums[i] + " ");
         }
