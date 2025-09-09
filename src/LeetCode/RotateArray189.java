@@ -3,9 +3,9 @@ import java.util.Arrays;
 public class RotateArray189 {
     // Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
 
-    public void rotate(int[] nums, int k) { // nums = [1, 2, 3, 4, 5, 6, 7], k = 3
-        int n = nums.length; // n = 7
-        k %= n; // 3 % 7 = 3
+    public void rotate(int[] nums, int k) {
+        int n = nums.length;
+        k %= n;
         reverse(nums, 0, nums.length - 1);
         reverse(nums, 0, k - 1);
         reverse(nums, k, nums.length - 1);
