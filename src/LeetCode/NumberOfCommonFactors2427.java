@@ -11,7 +11,7 @@ public class NumberOfCommonFactors2427 {
     }
     public static void main(String[] args) {
         NumberOfCommonFactors2427 obj = new NumberOfCommonFactors2427();
-        int result = obj.commonFactors(12, 3);
+        int result = obj.commonFactors(12, 6);
         System.out.println(result );
     }
 }
