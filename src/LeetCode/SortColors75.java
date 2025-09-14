@@ -1,7 +1,5 @@
 import java.util.Arrays;
 
-import static java.util.Collections.swap;
-
 public class SortColors75 {
     public void sortColors(int[] nums) {
         int zeroInsertPos = 0;
