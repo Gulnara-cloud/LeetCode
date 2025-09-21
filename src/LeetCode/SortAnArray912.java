@@ -19,7 +19,7 @@ public class SortAnArray912 {
         return nums;
     }
     public static void main(String[] args) {
-        int[] array = {5, 2, 3, 1};
+        int[] array = {4, 2, 3, 1};
         array = sortArray(array);
         System.out.println(Arrays.toString(array));
     }
