@@ -2,7 +2,7 @@
 
 This repository contains my solutions to **LeetCode** problems, implemented in Java.  
 All problems are organized in a single folder and named using the following pattern:
-No topic subfolders — just one directory sorted by **problem number**.
+No topic subfolders - just one directory sorted by **problem number**.
 
 ---
 
