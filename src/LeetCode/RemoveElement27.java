@@ -11,7 +11,7 @@ public class RemoveElement27 {
     }
     public static void main(String[] args) {
         RemoveElement27 obj = new RemoveElement27();
-        int[] nums = {3, 2, 2, 3};
+        int[] nums = {3, 2, 2, 4};
         int result = obj.removeElement(nums, 3);
         System.out.println(result);
     }
