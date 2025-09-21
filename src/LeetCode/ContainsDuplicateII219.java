@@ -14,7 +14,7 @@ public class ContainsDuplicateII219 {
         return false;
     }
     public static void main(String[] args) {
-        int[] nums = {1, 2, 3, 2};
+        int[] nums = {1, 2, 3, 1};
         int k = 3;
         System.out.println(containsDuplicateII219(nums, k));
     }
