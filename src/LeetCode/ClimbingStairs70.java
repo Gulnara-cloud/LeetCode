@@ -3,7 +3,6 @@ public class ClimbingStairs70 {
 
         System.out.println(ClimbStairs(4));
     }
-
     public static int ClimbStairs(int n) {
         if (n <= 2) return n;
         int AllWays = 0;
