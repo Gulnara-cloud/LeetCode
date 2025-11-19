@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class TwoSum1 {
+public class L_1_TwoSum {
     public static int[] twoSum(int[] nums, int target) {
         int n = nums.length;
         for (int i = 0; i < n - 1; i++) {
