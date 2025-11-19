@@ -1,4 +1,4 @@
-public class Sqrt69 {
+public class L_69_Sqrt {
     public static void main(String[] args) {
         int x = 4;
         int left = 0;
