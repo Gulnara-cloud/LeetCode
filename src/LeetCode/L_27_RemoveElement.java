@@ -1,4 +1,4 @@
-public class RemoveElement27 {
+public class L_27_RemoveElement {
     public int removeElement(int[] nums, int val) {
         int k = 0;
         for (int i = 0; i < nums.length; i++) {
@@ -10,7 +10,7 @@ public class RemoveElement27 {
         return k;
     }
     public static void main(String[] args) {
-        RemoveElement27 obj = new RemoveElement27();
+        L_27_RemoveElement obj = new L_27_RemoveElement();
         int[] nums = {3, 2, 2, 3};
         int result = obj.removeElement(nums, 3);
         System.out.println(result);
