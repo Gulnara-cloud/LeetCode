@@ -1,4 +1,4 @@
-public class MaximumSubArray53 {
+public class L_53_MaximumSubArray {
     public static int maxSubArray(int[] nums) {
 
         int currentSum = nums[0];
