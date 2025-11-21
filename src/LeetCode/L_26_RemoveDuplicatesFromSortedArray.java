@@ -1,4 +1,4 @@
-public class RemoveDuplicatesFromSortedArray26 {
+public class L_26_RemoveDuplicatesFromSortedArray {
     public static int removeDuplicates(int[] nums) {
         if (nums.length == 0) {
             return 0;
