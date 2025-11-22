@@ -1,4 +1,4 @@
-public class ClimbingStairs70 {
+public class L_70_ClimbingStairs {
     public static void main(String[] args) {
 
         System.out.println(ClimbStairs(4));
