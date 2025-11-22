@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class SortColors75 {
+public class L_75_SortColors {
     public void sortColors(int[] nums) {
         int zeroInsertPos = 0;
         int twoInsertPos = nums.length - 1;
@@ -26,7 +26,7 @@ public class SortColors75 {
     }
     public static void main(String[] args) {
         int[] array = {2, 0, 2, 1, 1, 0};
-        SortColors75 answer = new SortColors75();
+        L_75_SortColors answer = new L_75_SortColors();
         answer.sortColors(array);
         System.out.println(Arrays.toString(array));
     }
