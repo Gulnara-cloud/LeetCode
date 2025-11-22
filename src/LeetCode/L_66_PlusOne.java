@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class PlusOne66 {
+public class L_66_PlusOne {
     public int[] plusOne(int[] digits) {
         for (int i = digits.length - 1; i > 0; i++) {
             if (digits[i] < 9) {
@@ -15,7 +15,7 @@ public class PlusOne66 {
     }
     public static void main(String[] args) {
         int[] array = {1, 2, 3};
-        PlusOne66 digits = new PlusOne66();
+        L_66_PlusOne digits = new L_66_PlusOne();
         int[] result = digits.plusOne(array);
         System.out.println(Arrays.toString(result));
     }
