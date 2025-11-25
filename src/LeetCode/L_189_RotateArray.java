@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class RotateArray189 {
+public class L_189_RotateArray {
     // Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
 
     public void rotate(int[] nums, int k) {
@@ -22,7 +22,7 @@ public class RotateArray189 {
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 5, 6, 7};
         int k = 3;
-        RotateArray189 solution = new RotateArray189();
+        L_189_RotateArray solution = new L_189_RotateArray();
         solution.rotate(array, k);
         System.out.println(Arrays.toString(array));
     }
