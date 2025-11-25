@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class MajorityElement169 {
+public class L_169_MajorityElement {
     public int majorityElement(int[] nums) {
         Map<Integer, Integer> count = new HashMap<>();
         int n = nums.length;
@@ -15,7 +15,7 @@ public class MajorityElement169 {
     }
     public static void main(String[] args) {
         int[] nums = {2, 2, 1, 1, 1, 2, 2};
-        MajorityElement169 solution = new MajorityElement169();
+        L_169_MajorityElement solution = new L_169_MajorityElement();
         int result = solution.majorityElement(nums);
         System.out.println(result);
     }
