@@ -1,4 +1,4 @@
-public class ExcelSheetColumnNumber171 {
+public class L_171_ExcelSheetColumnNumber {
     public static int titleToNumber(String columnTitle) {
         int result = 0;
         for (int i = 0; i < columnTitle.length(); i++) {
