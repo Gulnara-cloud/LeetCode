@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class LongestConsecutive128 {
+public class L_128_LongestConsecutive {
     public static int longestConsecutive(int[] nums) {
         // create a HashSet from the array
         HashSet<Integer> set = new HashSet<>();
