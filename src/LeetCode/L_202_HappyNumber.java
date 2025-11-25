@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class HappyNumber202 {
+public class L_202_HappyNumber {
     public boolean isHappy(int n) {
         Set<Integer> seen = new HashSet<>();
         while (n != 1) {
@@ -23,7 +23,7 @@ public class HappyNumber202 {
         return sum;
     }
     public static void main(String[] args) {
-        HappyNumber202 obj = new HappyNumber202();
+        L_202_HappyNumber obj = new L_202_HappyNumber();
         System.out.println(obj.isHappy(19));
         System.out.println(obj.isHappy(2));
     }
