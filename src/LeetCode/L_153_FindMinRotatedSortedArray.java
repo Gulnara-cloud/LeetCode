@@ -1,5 +1,5 @@
 
-public class FindMinRotatedSortedArray153 {
+public class L_153_FindMinRotatedSortedArray {
     public static int findMin(int[] nums) {
         int left = 0;
         int right = nums.length - 1;
@@ -16,7 +16,7 @@ public class FindMinRotatedSortedArray153 {
     }
     public static void main(String[] args) {
         int[] array = {3, 4, 5, 1, 2};
-        System.out.println(FindMinRotatedSortedArray153.findMin(array));
+        System.out.println(L_153_FindMinRotatedSortedArray.findMin(array));
     }
 }
 
