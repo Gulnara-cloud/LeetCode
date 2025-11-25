@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class MergeSortedArray88 {
+public class L_88_MergeSortedArray {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int i = m - 1;
         int j = n - 1;
@@ -17,7 +17,7 @@ public class MergeSortedArray88 {
     public static void main(String[] args) {
         int[] nums1 = {1, 2, 3, 0, 0, 0};
         int[] nums2 = {2, 5, 6};
-        MergeSortedArray88 obj = new MergeSortedArray88();
+        L_88_MergeSortedArray obj = new L_88_MergeSortedArray();
         obj.merge(nums1,3, nums2,3);
         System.out.println(Arrays.toString(nums1));
     }
