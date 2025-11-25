@@ -1,4 +1,4 @@
-public class BestTimeToBuyAndSellStock121 {
+public class L_121_BestTimeToBuyAndSellStock {
     public static int maxProfit(int[] prices) { // [7,1,5,3,6,4]
         int minPrice = prices[0];
         int maxProfit = 0;
