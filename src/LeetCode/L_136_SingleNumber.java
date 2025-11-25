@@ -1,4 +1,4 @@
-public class SingleNumber136 {
+public class L_136_SingleNumber {
     public static void main(String[] args) {
         int[] nums = {2, 2, 1};
         int unique = 0;
