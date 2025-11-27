@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class ContainsDuplicateII219 {
+public class L_219_ContainsDuplicateII {
     public static boolean containsDuplicateII219(int[] nums, int k) {
         HashMap<Integer, Integer> hs = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
