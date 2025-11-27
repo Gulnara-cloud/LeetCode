@@ -1,8 +1,8 @@
 import java.util.HashSet;
 
-public class ContainsDuplicate217 {
+public class L_217_ContainsDuplicate {
     public static void main(String[] args) {
-        ContainsDuplicate217 obj = new ContainsDuplicate217();
+        L_217_ContainsDuplicate obj = new L_217_ContainsDuplicate();
         int[] nums = {1, 2, 3, 4};
         System.out.println(obj.containsDuplicate(nums));
     }
