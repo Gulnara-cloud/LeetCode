@@ -1,4 +1,4 @@
-public class PowerOfTwo231 {
+public class L_231_PowerOfTwo {
     public static boolean isPowerOfTwo(int n) {
         if(n <= 0) return false;
         while(n > 1) {
