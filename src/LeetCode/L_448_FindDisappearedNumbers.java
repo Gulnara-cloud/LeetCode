@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class FindDisappearedNumbers448 {
+public class L_448_FindDisappearedNumbers {
     public static List<Integer> findDisappearedNumbers(int[] nums) {
         int n = nums.length;
         boolean[] seen = new boolean[n + 1];
