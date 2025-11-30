@@ -1,7 +1,7 @@
-public class RangeSumQuery303 {
+public class L_303_RangeSumQuery {
     int[] prefix;
 
-    public RangeSumQuery303(int[] nums) {
+    public L_303_RangeSumQuery(int[] nums) {
         int n = nums.length;
 
         prefix = new int[n + 1];
@@ -16,7 +16,7 @@ public class RangeSumQuery303 {
     }
     public static void main(String[] args) {
         int[] nums = {-2, 0, 3, -5, 2, -1};
-        RangeSumQuery303 obj = new RangeSumQuery303(nums);
+        L_303_RangeSumQuery obj = new L_303_RangeSumQuery(nums);
 
         System.out.print(obj.sumRange(0, 2)+ ",");
         System.out.print(obj.sumRange(2, 5)+ ",");
