@@ -1,8 +1,7 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-public class FizzBuzz412 {
+public class L_412_FizzBuzz {
     public static List<String> fizzBuzz(int n) {
 
         List<String> list = new ArrayList<>();
