@@ -1,4 +1,4 @@
-public class ThirdMaxNumber414 {
+public class L_414_ThirdMaxNumber {
     public static int thirdMax(int[] nums) {
         Long first = null;
         Long second = null;
