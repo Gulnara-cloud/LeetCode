@@ -1,4 +1,4 @@
-public class IslandPerimeter463 {
+public class L_463_IslandPerimeter {
     public static int islandPerimeter(int[][] grid) {
         int perimeter = 0;
         int rows = grid.length;
