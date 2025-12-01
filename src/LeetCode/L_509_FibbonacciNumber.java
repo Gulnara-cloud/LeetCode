@@ -1,4 +1,4 @@
-public class FibbonacciNumber509 {
+public class L_509_FibbonacciNumber {
     public static int fib(int n) {
         if(n == 0 || n == 1) {
             return n;
