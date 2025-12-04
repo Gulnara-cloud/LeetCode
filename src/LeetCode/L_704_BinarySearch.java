@@ -1,4 +1,4 @@
-public class BinarySearch704 {
+public class L_704_BinarySearch {
     public static int search(int[] nums, int target) {
         int len = nums.length;
         int left = 0;
