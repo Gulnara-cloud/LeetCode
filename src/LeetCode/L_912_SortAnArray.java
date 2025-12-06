@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class SortAnArray912 {
+public class L_912_SortAnArray {
     public static int[] sortArray(int[] nums) {
         int n = nums.length;
 
