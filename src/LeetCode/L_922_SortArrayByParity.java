@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class SortArrayByParity922 {
+public class L_922_SortArrayByParity {
     public int[] sortArrayByParityII(int[] nums) {
         int i = 0;
         int j = 1;
@@ -26,7 +26,7 @@ public class SortArrayByParity922 {
     }
     public static void main(String[] args) {
         int[] array = {4, 2, 5, 7};
-        SortArrayByParity922 obj = new SortArrayByParity922();
+        L_922_SortArrayByParity obj = new L_922_SortArrayByParity();
         System.out.println(Arrays.toString(array));
     }
 }
