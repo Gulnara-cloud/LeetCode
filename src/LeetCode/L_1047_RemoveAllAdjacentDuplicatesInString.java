@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class RemoveAllAdjacentDuplicatesInString1047 {
+public class L_1047_RemoveAllAdjacentDuplicatesInString {
     public String removeDuplicates(String s) {
         Stack<Character> stack = new Stack<>();
         for (int i = 0; i < s.length(); i++) {
@@ -19,7 +19,7 @@ public class RemoveAllAdjacentDuplicatesInString1047 {
     }
 
     public static void main(String[] args) {
-        RemoveAllAdjacentDuplicatesInString1047 obj = new RemoveAllAdjacentDuplicatesInString1047();
+        L_1047_RemoveAllAdjacentDuplicatesInString obj = new L_1047_RemoveAllAdjacentDuplicatesInString();
         String input = "abbaca";
         String output = obj.removeDuplicates(input);
         System.out.println(output);
