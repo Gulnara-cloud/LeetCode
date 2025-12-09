@@ -1,4 +1,4 @@
-public class NumberOfCommonFactors2427 {
+public class L_2427_NumberOfCommonFactors {
     public int commonFactors(int a, int b) {
         int x = Math.min(a, b);
         int count = 0;
@@ -10,7 +10,7 @@ public class NumberOfCommonFactors2427 {
         return count;
     }
     public static void main(String[] args) {
-        NumberOfCommonFactors2427 obj = new NumberOfCommonFactors2427();
+        L_2427_NumberOfCommonFactors obj = new L_2427_NumberOfCommonFactors();
         int result = obj.commonFactors(12, 6);
         System.out.println(result );
     }
