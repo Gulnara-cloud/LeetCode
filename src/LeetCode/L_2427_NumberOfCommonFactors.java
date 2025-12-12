@@ -11,7 +11,7 @@ public class L_2427_NumberOfCommonFactors {
     }
     public static void main(String[] args) {
         L_2427_NumberOfCommonFactors obj = new L_2427_NumberOfCommonFactors();
-        int result = obj.commonFactors(12, 6);
+        int result = obj.commonFactors(18, 9);
         System.out.println(result );
     }
 }
