@@ -31,7 +31,7 @@ public class L_290_WordPattern {
         L_290_WordPattern solution = new L_290_WordPattern();
         System.out.println(solution.wordPattern("abba", "dog cat cat dog"));  // true
         System.out.println(solution.wordPattern("abba", "dog cat cat fish")); // false
-        System.out.println(solution.wordPattern("bbbb", "dog dog dog dog"));  // true
+        System.out.println(solution.wordPattern("aaaa", "dog dog dog dog"));  // true
         System.out.println(solution.wordPattern("abba", "dog dog dog dog"));  // false
     }
 }
