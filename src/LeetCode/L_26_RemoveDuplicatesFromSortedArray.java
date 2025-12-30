@@ -16,8 +16,7 @@ public class L_26_RemoveDuplicatesFromSortedArray {
         int[] nums = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
         int k = removeDuplicates(nums);
 
-        System.out.println("Number of unique elements: " + k);
-        System.out.print("Modified array: ");
+        System.out.println(k);
 
         for (int i = 0; i < k; i++) {
             System.out.print(nums[i] + " ");
