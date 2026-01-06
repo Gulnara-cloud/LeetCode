@@ -41,7 +41,7 @@ public class L_912_SortAnArrayll {
     public static void main(String[] args) {
         L_912_SortAnArrayll solution = new L_912_SortAnArrayll();
 
-        int[] nums = {5, 3, 1, 1, 2, 0, 0};
+        int[] nums = {5, 1, 1, 2, 0, 0};
         solution.sortArray(nums);
 
         for (int n : nums) {
