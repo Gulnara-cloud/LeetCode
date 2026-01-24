@@ -30,7 +30,6 @@ public class L_203_RemoveLinkedListElements {
         return head;
     }
     public static void main(String[] args) {
-        // создаём список: 1 -> 2 -> 6 -> 3 -> 4 -> 5 -> 6
         ListNode head = new ListNode(1,
                 new ListNode(2,
                         new ListNode(6,
