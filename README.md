@@ -10,8 +10,8 @@ No topic subfolders - just one directory sorted by **problem number**.
 ## Naming Convention
 - File name: `<ProblemName><Number>.java`
 - Examples:
-  - `TwoSum1.java`
-  - `BinarySearch704.java`
+  - `L_1_TwoSum.java`
+  - `L_704_BinarySearch.java`
   - `ReverseLinkedList206.java`
 
 This makes it easy to **find by problem ID**.
@@ -21,4 +21,4 @@ This makes it easy to **find by problem ID**.
 ## Find a Solution by Number
 From the repo root:
 ```bash
-ls src/LeetCode | grep 704       # BinarySearch704.java
+ls src/LeetCode | grep 704       # L_704_BinarySearch.java
