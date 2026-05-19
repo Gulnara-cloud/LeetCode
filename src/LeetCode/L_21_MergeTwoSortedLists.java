@@ -47,7 +47,7 @@ public class L_21_MergeTwoSortedLists {
         ListNode a = new ListNode(1, new ListNode(2, new ListNode(4)));
 
         // Создаём второй список: 1 → 3 → 4
-        ListNode b = new ListNode(1, new ListNode(3, new ListNode(4)));
+        ListNode b = new ListNode(1, new ListNode(3, new ListNode(3)));
 
         // Создаём объект решения
         L_21_MergeTwoSortedLists solution = new L_21_MergeTwoSortedLists();
